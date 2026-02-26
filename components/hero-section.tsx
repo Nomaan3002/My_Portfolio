@@ -117,7 +117,8 @@ export function HeroSection() {
             {/* Gradient Border */}
             <div className="relative rounded-full bg-linear-to-br from-primary via-accent to-primary p-0.75">
               <div className="rounded-full bg-background p-0.75">
-                <div className="relative h-48 w-48 md:h-60 md:w-60">
+                {/* <div className="relative h-48 w-48 md:h-60 md:w-60"> */}
+                <div className="relative h-60 w-60 md:h-80 md:w-80">
                   <Image
                     src="/images/noman-image.png"
                     alt="Shaik Mohammed Noman Ahmed - Network Engineer"
